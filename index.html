@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bignoodletitling" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/87c809025dc814686054321f6b5c73fa?family=CCElephantmenTall+Regular" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>Dices</title>
+</head>
+
+<body class="BodyAsButton">
+  
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="headertext">Home</a>
+            <a href="#updates" class="headertext">Updates</a>
+            <a href="#overview" class="headertext">Overview</a>
+            <a href="#followus" class="headertext">Contact Us</a>
+        </nav>
+        <a href="#" class="shop">Shop</a>
+        <a class="login" id="show-login">Login</a>
+        <a class="register" id="show-register">Register</a>
+    </header>
+
+
+    
+
+    <section class="one" id="home">
+      
+      <div class="shopheader">
+     
+      </div>
+      <div class="LoginBox">
+        <div class="BackgroundButton" id="BackgroundButton"></div>
+        <div class="form-box">
+          <div class="form-value">
+            <form action="">
+              <h2>LOGIN</h2>
+              <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="name" required>
+                <label for="">Email</label>
+              </div>
+              <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="Password" required>
+                <label for="">Password</label>
+              </div>
+              <div class="remember">
+                <label for=""><input type="checkbox" style="accent-color: #000000;"> Remember Me🎲</label>
+              </div>
+              <div class="forget">
+                <label for=""><a href="#">Forget Password?</a></label>
+              </div>
+              <button>SIGN IN</button>
+              <div class="registerblue">
+                <p>Don't have a account?<a href="#"> Register</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="RegisterBox">
+        <div class="BackgroundButton3" id="BackgroundButton3"></div>
+        <div class="form-box2">
+          <div class="form-value2">
+            <form action="">
+              <h2 class="regsub">REGISTER</h2>
+              <div class="emailname">
+                <div class="inputbox2">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <input type="name" required>
+                  <label for="">Email</label>
+                </div>
+                  <div class="inputbox2">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="name" required>
+                    <label for="">Nickname</label>
+                </div>
+              </div>
+              <div class="passwords">
+                <div class="inputbox2">
+                  <ion-icon name="lock-closed-outline"></ion-icon>
+                  <input type="Password" required>
+                  <label for="">Password</label>
+                </div>
+                <div class="inputbox2">
+                  <ion-icon name="key-outline"></ion-icon>
+                  <input type="Password" required>
+                  <label for="">Confirm Password</label>
+                </div>
+              </div>
+              
+              <div class="remember2">
+                <label for=""><input type="checkbox" style="accent-color: #000000;"> Remember Me🎲</label>
+              </div>
+              <div class="termsofuse">
+                <label for=""><input type="checkbox" style="accent-color: #000000;"> Accept Terms of Use🎲</label>
+              </div>
+              <button class="regbut">REGISTER</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div class="BackgroundButton2" id="BackgroundButton2"></div>
+        <div id="root"></div>
+        <div class="sidebar">
+          <div class="head"></ion-icon><p>My Cart</p><ion-icon class="x" name="close-circle-outline"></ion-icon></div>
+          <div id="cartItem" style="color:white">Your Cart is empty</div>
+          <div class="foot">
+            <h3 style="color: white">Total:</h3>
+            <h4 id="total">$ 0.00</h4>
+          </div>
+        </div>
+       </div>
+      
+
+
+      <div  class="subject" id="animatesub">Your Luck Depends On The Cubes</div>
+        <div class="GetNow" id="animateget">Get Now!</div>
+        <div class="download-images"> 
+            <img src="assets/skitza/Google-White.png" class="download" id="animategoogle">
+            <img src="assets/skitza/Apple-White.png" class="download apple" id="animateapple" >
+        </div>
+        <div class="or" id="animateor">Or</div>
+        <a href="https://www.google.com">
+            <div class="play" id="animateplay"></div>
+        </a>
+    </section>
+
+    <section class="two" id="updates">
+
+        <div class="latestnews">LATEST NEWS</div>
+        <a href="https://www.google.com">
+            <div class="flex-box" id="animateflex" style="--i:0">
+                <div class="title">New Update - Armour And Heal<br>Nerf Update <br> 19/03/24</div>
+            </div>
+        </a>
+        
+        <a href="https://www.google.com">
+        <div class="flex-box2" id="animateflex" style="--i:1">
+            <div class="title">March Update - Patch Notes <br> 01/03/24</div>
+        </div>
+        </a>
+        <a href="https://www.google.com">
+        <div class="flex-box3" id="animateflex" style="--i:2">
+            <div class="title">February Update - First Update!<br>Patch Notes <br> 15/02/24</div>
+        </div>
+        </a>
+    
+        
+    </section>
+    <section class="three" id="overview">
+        <div class="cubegif" id="animatecube"></div>
+        <div class="overviewdis" id="animateoverdis">Throw the Dices, Get Elements<br>to take down your Opponent.<br>4 options on the cube that <br>will take you towards victory. <br>Attack, Armour, Skull, Dice+. <br>Have Enough Luck? You Can Win <br>Else? You Are ''Thrown to the dogs''.</div>
+        <div class="overviewtitle" id="animateover">OVERVIEW</div>
+    </section>
+    <section class="four" id="followus">
+        <div class="follow-us" id="animatefollow">FOLLOW OUR SOCIAL MEDIA: </div>
+        <div class="rules">RULES</div>
+        <div class="contactus">CONTACT US</div>
+        <div class="credits">CREDITS</div>
+        <div class="tos">TERM OF USE</div>
+        <div class="dices">Dices 2024 ©</div>
+        <div class="cookies">Cookies Policy</div>
+        
+        <ul id="animatepent">
+            <li style="--clr: #000000"><a href="https://www.facebook.com">
+              <span> <img src="assets/skitza/1.png" alt=""></span></a>
+            </li>
+            <li style="--clr: #000000"><a href="https://www.youtube.com">
+              <span> <img src="assets/skitza/2.png" alt=""></span></a>
+            </li>
+            <li style="--clr: #000000"><a href="https://www.x.com">
+              <span> <img src="assets/skitza/3.png" alt=""></span></a>
+            </li>
+            <li class="pentagon2" style="--clr: #000000"><a href="https://www.instagram.com">
+              <span> <img src="assets/skitza/4.png" alt=""></span></a>
+            </li>
+            <li class="pentagon2" style="--clr: #000000"><a href="https://www.discord.com">
+              <span> <img src="assets/skitza/5.png" alt=""></span></a>
+            </li>
+          </ul>
+          
+    </section>
+    
+    </div>
+
+
+<script>
+    let BannerHeight = parseInt(document.getElementById("home").clientHeight);
+    let BannerHeight3 = parseInt(document.getElementById("overview").clientHeight);
+    let navbar = document.querySelector('.navbar');
+
+
+
+    window.addEventListener("scroll", (event) => {
+        if (parseInt(document.documentElement.scrollTop) > BannerHeight - 100 && parseInt(document.documentElement.scrollTop) < BannerHeight - 200 + BannerHeight3) {
+          for(let i = 0; i < document.getElementsByClassName("headertext").length; i++) {
+            document.getElementsByClassName("headertext")[i].style.color = "black";
+          }
+          for(let i = 0; i < document.getElementsByClassName("login").length; i++) {
+            document.getElementsByClassName("login")[i].style.color = "black";
+            document.getElementsByClassName("login")[i].style.border = "black 0.53mm solid";
+          }
+          for(let i = 0; i < document.getElementsByClassName("register").length; i++) {
+            document.getElementsByClassName("register")[i].style.background = "rgb(65, 21, 100)";
+            document.getElementsByClassName("register")[i].style.border = "2px solid rgb(65, 21, 100)";
+          }
+          navbar.classList.add("whitecolor");
+       }
+       
+        else {
+            for(let i = 0; i < document.getElementsByClassName("headertext").length; i++) {
+            document.getElementsByClassName("headertext")[i].style.color = "white";
+          }
+          for(let i = 0; i < document.getElementsByClassName("login").length; i++) {
+            document.getElementsByClassName("login")[i].style.color = "white";
+            document.getElementsByClassName("login")[i].style.border = "white 0.53mm solid";
+          }
+          for(let i = 0; i < document.getElementsByClassName("register").length; i++) {
+            document.getElementsByClassName("register")[i].style.background = "rgb(116,84,76)";
+            document.getElementsByClassName("register")[i].style.border = "rgb(116,84,76) 2px solid ";
+          }
+          
+          navbar.classList.remove("whitecolor"); 
+        }
+          
+
+
+        
+    });
+
+    document.getElementById("show-login").addEventListener('click', () => {
+      document.getElementsByClassName("LoginBox")[0].classList.add("ShowLogin");
+      document.getElementsByClassName("BackgroundButton")[0].classList.add("addPointerEvents");
+    });
+
+    document.getElementsByClassName("BackgroundButton")[0].addEventListener('click', () => {
+      document.getElementsByClassName("LoginBox")[0].classList.remove("ShowLogin");
+      
+      document.getElementsByClassName("BackgroundButton")[0].classList.remove("addPointerEvents");
+      
+
+    });
+    document.getElementById("show-register").addEventListener('click', () => {
+      document.getElementsByClassName("RegisterBox")[0].classList.add("ShowRegister");
+      document.getElementsByClassName("BackgroundButton3")[0].classList.add("addPointerEvents2");
+    });
+    document.getElementsByClassName("BackgroundButton3")[0].addEventListener('click', () => {
+      document.getElementsByClassName("RegisterBox")[0].classList.remove("ShowRegister");
+      
+      document.getElementsByClassName("BackgroundButton3")[0].classList.remove("addPointerEvents2");
+      
+
+    });
+
+    
+
+
+    let sections = document.querySelectorAll('section');
+
+
+    window.onscroll = () => {
+      sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop;
+        let height = sec.offsetHeight;
+
+
+        if (top >= offset && top < offset + height) {
+          sec.classList.add('show-animate');
+        }
+
+
+      })
+    }
+
+    const product = [
+      {
+        id: 0,
+        image: 'assets/shopitems/redcolor.png',
+        title: 'Dices Color: Red',
+        price: 5,
+      },
+      {
+        id: 1,
+        image: 'assets/shopitems/orangecolor.png',
+        title: 'Dices Color: Ornge',
+        price: 5,
+      },
+      {
+        id: 2,
+        image: 'assets/shopitems/yellowcolor.png',
+        title: 'Dices Color: Yellow',
+        price: 5,
+      },
+      {
+        id: 3,
+        image: 'assets/shopitems/greencolor.png',
+        title: 'Dices Color: Green',
+        price: 5,
+      },
+      {
+        id: 4,
+        image: 'assets/shopitems/cyancolor.png',
+        title: 'Dices Color: Cyan',
+        price: 5,
+      },
+      {
+        id: 5,
+        image: 'assets/shopitems/bluecolor.png',
+        title: 'Dices Color: Blue',
+        price: 5,
+      },
+      {
+        id: 6,
+        image: 'assets/shopitems/purplecolor.png',
+        title: 'Dices Color: Purple',
+        price: 5,
+      },
+      {
+        id: 7,
+        image: 'assets/shopitems/pinkcolor.png',
+        title: 'Dices Color: Pink',
+        price: 5,
+      },
+      {
+        id: 8,
+        image: 'assets/shopitems/Dcoin.png',
+        title: 'D-Coins: 500',
+        price: 5,
+      },
+      {
+        id: 9,
+        image: 'assets/shopitems/Dcoin.png',
+        title: 'D-Coins: 1000',
+        price: 10,
+      },
+      {
+        id: 9,
+        image: 'assets/shopitems/Dcoin.png',
+        title: 'D-Coins: 2500',
+        price: 20,
+      },
+      {
+        id: 9,
+        image: 'assets/shopitems/Dcoin.png',
+        title: 'D-Coins: 5000',
+        price: 30,
+      },
+    ];
+    const categories = [...new Set(product.map((item)=>
+      {return item}))]
+    let i=0;
+    document.getElementById('root').innerHTML = categories.map((item)=>
+     {
+        var{image, title, price} = item;
+        return(
+          `<div class='box'>'
+            <div class='img-box'>
+              <img class='images' src=${image}></img>
+              </div>
+              <div class='bottom'>
+                <p>${title}</p> 
+                <h4> $ ${price}.00</h4>` +
+                "<button class='addtocart' onclick='addtocart("+(i++)+")'>BUY</button>"+
+                `</div>
+                </div>`
+        )
+    }).join('')
+
+
+    var cart = [];
+
+    function addtocart(a) {
+      cart.push({...categories[a]})
+      displaycart();
+    }
+
+    function delElement(a) {
+      cart.splice(a, 1);
+      displaycart();
+    }
+
+    function displaycart(a) {
+      let j = 0, total = 0;
+      if(cart.length==0) {
+        document.getElementById('cartItem').innerHTML = "Your cart is empty";
+        document.getElementById("total").innerHTML = "$ "+0+".00";
+      }
+      else {
+        document.getElementById("cartItem").innerHTML = cart.map((items)=>
+      {
+        var {image, title, price} = items;
+        total=total+price;
+        document.getElementById("total").innerHTML = "$ "+total+".00"
+
+        return(
+          `<div class='cart-item'>
+          <div class='row-img'>
+            <img class='rowimg' src=${image}>
+          </div>
+          <p style='font-size:12px; color: black'>${title}</p>
+          <h4 style='font-size: 15'> $ ${price}.00</h2>`+
+          "<i class='fa-solid fa-trash' onclick='delElement("+ (j++) +")'></i></div>"
+        );
+        
+
+
+
+      }).join('');
+      }
+
+
+
+
+    }
+
+    document.getElementsByClassName("x")[0].addEventListener('click', function(){
+          document.getElementsByClassName("container1")[0].style.display = "none";
+          console.log("wef")
+        })
+    document.getElementsByClassName("shop")[0].addEventListener('click', function(){
+          document.getElementsByClassName("container1")[0].style.display = "flex";
+          document.getElementsByClassName("container1")[0].style.opacity = "1";
+          console.log("wef")
+        })    
+
+</script>
+
+
+</body>
+</html>
